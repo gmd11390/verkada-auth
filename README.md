@@ -36,10 +36,10 @@ We’ll install everything you need automatically when you run the next step.
 
 ## 🔐 4. Initialize your API environment (first-time setup)
 
-After installation, run the included `init_verkada_auth.py` script:
+After installation, run the initialization script as a module:
 
 ```bash
-python init_verkada_auth.py
+python -m verkada_auth.init_verkada_auth
 ```
 
 This will:
