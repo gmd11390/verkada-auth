@@ -26,7 +26,7 @@ This package handles that for you. It:
 
 ## Installation & First-Time Setup
 
-If you don't have a testbed already, create a new directory (folder) of your choice. If you already have a dev environment set up, create a folder in that environement called "Verkada_Testing"
+If you don't have a testbed already, create a new directory (folder) of your choice. If you already have a dev environment set up, create a folder in that environment called "Verkada_Testing"
 
 ### Step 1: Install from GitHub
 
