@@ -26,9 +26,11 @@ This package handles that for you. It:
 
 ## Installation & First-Time Setup
 
+If you don't have a testbed already, create a new directory (folder) of your choice. If you already have a dev environment set up, create a folder in that environement called "Verkada_Testing"
+
 ### Step 1: Install from GitHub
 
-In your terminal:
+In your terminal navigate the Verkada Testing directory (cd .../Verkada_Testing). TIP for Mac: If you drag the root folder to the terminal it will automatically generate the filepath...
 
 ```
 pip install git+https://github.com/gmd11390/verkada-auth.git
