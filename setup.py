@@ -4,9 +4,12 @@ setup(
     name="verkada_auth",
     version="0.1.0",
     packages=find_packages(),
-    install_requires=[],
-    author="Your Name",
-    author_email="your@email.com",
+    install_requires=[
+        "requests",
+        "python-dotenv"
+    ],
+    author="George Dorsey",
+    author_email="gmd11390@gmail.com",
     description="Helper utilities for managing Verkada API token-based authentication.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
