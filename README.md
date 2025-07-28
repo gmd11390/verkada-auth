@@ -4,11 +4,16 @@
 
 ---
 
-## 👋 Welcome
+## 👋 Overview
 
-So you're new to the Verkada API and you want to build a script, tool, or app on top of it. Awesome. This package is here to make your life easier by eliminating the most frustrating part of using Verkada’s API: **token management**.
+Verkada’s API requires the use of a short-lived authentication token, which must be generated using an API key and expires every 30 minutes. This presents a challenge for developers who want to build tools, scripts, or applications that interact with the Verkada API — manual token management becomes a frustrating and error-prone task.
 
-Verkada's API requires you to use a short-lived token (expires every 30 minutes). We’ve created a wrapper that fetches tokens, caches them locally, and makes sure you never have to think about it.
+This package solves that problem by providing a lightweight token management utility that:
+- Automatically generates tokens using a stored API key
+- Caches tokens locally and refreshes them as needed
+- Ensures thread-safe, seamless integration into your scripts with minimal setup
+
+The goal is to simplify authenticated access to Verkada’s API without compromising control, flexibility, or security.
 
 ---
 
@@ -21,7 +26,7 @@ Verkada's API requires you to use a short-lived token (expires every 30 minutes)
 Install it directly from GitHub:
 
 ```bash
-pip install git+https://github.com/YOUR_USERNAME/verkada-auth.git
+pip install git+https://github.com/gmd11390/verkada-auth.git
 ```
 
 ### 📦 3. Install dependencies:
