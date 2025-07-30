@@ -19,6 +19,8 @@ This package handles that for you. It:
 ## Who This Is For
 
 - You're new to the Verkada API and want a simple, clean way to start scripting.
+- You want to use Python
+- You already have Developer Tools installed (i.e. Python, a code editor, etc)
 - You're experienced, but tired of hardcoding API keys or generating tokens manually.
 - You're building a tool, a script, or a demo and want seamless, repeatable behavior.
 
