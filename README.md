@@ -30,7 +30,7 @@ If you don't have a testbed already, create a new directory (folder) of your cho
 
 ### Step 1: Install from GitHub
 
-In your terminal navigate the Verkada_Testing directory (cd .../Verkada_Testing). TIP for Mac: If you drag the root folder to the terminal it will automatically generate the filepath...
+In your terminal navigate the Verkada_Testing directory (cd .../Verkada_Testing). TIP for Mac: If you drag the root folder From Finder to the terminal it will automatically generate the filepath...
 
 ```
 pip install git+https://github.com/gmd11390/verkada-auth.git
