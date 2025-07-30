@@ -60,7 +60,7 @@ You should see:
 
 ## Using It In Your Script
 
-Here’s how to use the token manager in your project:
+In the first part of your script, use the token manager in your project.
 
 ```python
 from verkada_auth.token_manager import TokenManager
@@ -78,7 +78,7 @@ headers = {
 - If yes, it reuses it.
 - If no, it auto-refreshes using your saved API key.
 
-No token copy/pasting. No manual refresh. No headache.
+No token copy/pasting and removes the headache of regen.
 
 ---
 
@@ -86,7 +86,7 @@ No token copy/pasting. No manual refresh. No headache.
 
 These are stored in your working directory:
 
-- `.verkada_api_key` — stores your API key (never push this to GitHub)
+- `.verkada_api_key` — stores your API key
 - `.verkada_token.json` — stores active token + expiration
 
 ---
@@ -124,4 +124,4 @@ Feel free to fork, file an issue, or submit a pull request.
 
 ## License
 
-MIT License.
+None.
